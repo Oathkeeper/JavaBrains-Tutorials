@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+<form method="post" action="xmlServletpath">
+
+<div id="userName">
+	<label for="userName">User Name:</label>
+	<input name="userName" />
+</div>
+<div id="fullName">
+	<label for="fullname">Full Name:</label>
+	<input name="fullName" />
+</div>
+<div id="prof">
+	<input type="radio" name="prof" value="Developer">Developer</input>
+	<input type="radio" name="prof" value="Architect">Architect</input>
+</div>
+<div id="location">
+	<label for="location">Location:</label>
+	<select name="location" multiple size=3>
+		<option value="Canada">Canada</option>
+		<option value="USA">USA</option>
+		<option value="Brazil">Brazil</option>
+		<option value="Switzerland">Switzerland</option>
+	</select>
+</div>
+<input type="submit" />
+</form>
+</body>
+</html>

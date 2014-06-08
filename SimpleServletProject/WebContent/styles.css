@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 0;
+	margin: 0;
+}
+
+#userName, #fullName, #prof, #location{
+	display: inline-block;
+	width: 800px;
+}
