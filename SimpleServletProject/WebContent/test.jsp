@@ -40,5 +40,17 @@ k = add(5, 9);
 <br>
 The value of k is: <%=k%>
 
+<br>
+
+<%
+for (i = 0; i < 5; i++) {
+	/* out.println("The value of i is: " + i + "<br>"); */
+%>
+
+<br> i = <%= i %>
+
+
+<% } %>
+
 </body>
 </html>
