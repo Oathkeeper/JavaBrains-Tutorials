@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Login Page</title>
+<title>User Registration Page</title>
 <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
 	<div id="wrapper">
-		<form action="login" method="post" id="loginForm">
+		<form action="Process.jsp" method="post" id="loginForm">
 		<div class="field">
 			<div class="field">
 				<label for="userId">User ID: </label>
