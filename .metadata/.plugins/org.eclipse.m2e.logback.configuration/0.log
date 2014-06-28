@@ -1,0 +1,64 @@
+2014-06-26 20:05:37,144 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/owen/javabrains_tutorials/owenpeterson/pom.xml
+2014-06-26 20:05:37,721 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca:owenpeterson:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/owenpeterson/pom.xml.
+2014-06-26 20:05:38,010 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /owenpeterson/src/main/java
+2014-06-26 20:05:38,010 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /owenpeterson/src/main/resources
+2014-06-26 20:05:38,011 [Worker-16] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /owenpeterson/src/test/java
+2014-06-26 20:05:38,960 [Worker-16] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Project import completed 1 sec
+2014-06-26 20:05:39,321 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca:owenpeterson:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/owenpeterson/pom.xml.
+2014-06-26 20:05:40,097 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:05:40,100 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:05:40,103 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:05:40,103 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/owenpeterson/src/test/resources
+2014-06-26 20:05:40,803 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca:owenpeterson:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/owenpeterson/pom.xml.
+2014-06-26 20:05:41,228 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:05:41,233 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:05:41,235 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:05:41,236 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/owenpeterson/src/test/resources
+2014-06-26 20:06:48,444 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/owen/javabrains_tutorials/Struts2starter/pom.xml
+2014-06-26 20:06:48,522 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:06:48,639 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Struts2starter/src/main/java
+2014-06-26 20:06:48,639 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Struts2starter/src/main/resources
+2014-06-26 20:06:48,639 [Worker-7] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Struts2starter/src/test/java
+2014-06-26 20:06:49,392 [Worker-7] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Project import completed 0 sec
+2014-06-26 20:06:49,577 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:06:49,612 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:06:49,613 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:06:49,614 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:06:49,615 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/Struts2starter/src/test/resources
+2014-06-26 20:06:50,439 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:06:50,867 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:06:50,867 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:06:50,868 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:06:50,869 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/Struts2starter/src/test/resources
+2014-06-26 20:07:35,063 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:07:35,085 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:07:35,085 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:07:35,086 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:07:35,087 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/Struts2starter/src/test/resources
+2014-06-26 20:07:50,807 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-06-26 20:07:50,831 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:07:50,854 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Struts2starter/src/main/java
+2014-06-26 20:07:50,854 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Struts2starter/src/main/resources
+2014-06-26 20:07:50,854 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Struts2starter/src/test/java
+2014-06-26 20:07:51,654 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Struts2starter
+2014-06-26 20:07:51,657 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-06-26 20:07:51,812 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:07:51,848 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:07:51,849 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:07:51,850 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:07:51,850 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/Struts2starter/src/test/resources
+2014-06-26 20:08:44,290 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:08:44,313 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:08:44,313 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:08:44,315 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:08:44,315 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/Struts2starter/src/test/resources
+2014-06-26 20:09:20,368 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:09:20,400 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:09:20,401 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:09:20,405 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:09:20,406 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/Struts2starter/src/test/resources
+2014-06-26 20:09:57,773 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:Struts2starter:0.0.1-SNAPSHOT @ /home/owen/javabrains_tutorials/Struts2starter/pom.xml.
+2014-06-26 20:09:57,791 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:09:57,792 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-06-26 20:09:57,793 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-06-26 20:09:57,793 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/Struts2starter/src/test/resources

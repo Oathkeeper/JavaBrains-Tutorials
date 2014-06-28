@@ -1,0 +1,7 @@
+INDEX VERSION 1.126
+/home/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/24534645.index
+/owenpeterson/src/main/resources
+/home/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3719519577.index
+/Struts2Starter/src
+/home/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2629167549.index
+/Struts2starter/src/main/resources
