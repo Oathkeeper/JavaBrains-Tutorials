@@ -1,0 +1,12 @@
+package ca.owenpeterson.action;
+
+public class LoginAction {
+	
+	private String userId;
+	private String password;
+	
+	public String execute() {
+		
+	}
+
+}
