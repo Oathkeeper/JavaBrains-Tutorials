@@ -1,39 +1,62 @@
 package ca.owenpeterson.action;
 
-import com.opensymphony.xwork2.Action;
 
-public class LoginAction implements Action{
+import org.apache.commons.lang3.StringUtils;
+
+import ca.owenpeterson.model.User;
+import ca.owenpeterson.service.LoginService;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+
+public class LoginAction extends ActionSupport implements ModelDriven<User> {
 	
-	private String userId;
-	private String password;
-	
-	//private static final String SUCCESS = "success";
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private User user = new User();
 	
 	public String execute() {
-		if (getUserId().equals("userId") && getPassword().equals("password")) {
+		
+		LoginService loginService = new LoginService();
+
+		if (loginService.verifyLogin(user)) {
 			return SUCCESS;
 		}
 		else {
 			return LOGIN;
 		}		
 	}
-
-	public String getUserId() {
-		return userId;
+	
+	public void validate() {
+		if (StringUtils.isEmpty(user.getUserId())) {
+			//user id is blank
+			addFieldError("userId", "User ID cannot be blank");
+		}
+		if (StringUtils.isEmpty(user.getPassword())) {
+			//password is blank
+			addFieldError("password", "Password cannot be blank");
+		}
+		
+	}
+	
+	@Override
+	public User getModel() {
+		
+		return user;
 	}
 
-	public void setUserId(String userId) {
-		this.userId = userId;
+	public User getUser() {
+		return user;
 	}
 
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
+	public void setUser(User user) {
+		this.user = user;
 	}
 	
 	
+
 
 }

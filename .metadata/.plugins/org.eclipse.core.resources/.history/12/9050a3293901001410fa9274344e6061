@@ -1,0 +1,5 @@
+package ca.owenpeterson.model;
+
+public class User {
+
+}

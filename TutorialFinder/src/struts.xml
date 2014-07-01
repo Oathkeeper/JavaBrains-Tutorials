@@ -7,10 +7,21 @@
 	<include file="login.xml" />
 
 	<package name="default" extends="struts-default" namespace="/tutorials">
-		<action name="get*" class="ca.owenpeterson.action.{1}Action">
+<!-- 		<action name="getTutorial" class="ca.owenpeterson.action.TutorialAction" method="getTutorial">
 			<result name="success" type="redirect">/success.jsp</result>
 			<result name="failure">/error.jsp</result>
 		</action>
+		
+		<action name="addTutorial" class="ca.owenpeterson.action.TutorialAction" method="addTutorial">
+      <result name="success" type="redirect">/success.jsp</result>
+      <result name="failure">/error.jsp</result>
+    </action> -->
+    
+    <action name="*" class="ca.owenpeterson.action.TutorialAction" method="{1}">
+      <result name="success" type="redirect">/success.jsp</result>
+      <result name="failure">/error.jsp</result>
+    </action>
+		
 	</package>
 
   <!-- Dummy class to redirect to searchForm.jsp -->
