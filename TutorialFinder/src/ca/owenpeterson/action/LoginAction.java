@@ -11,12 +11,11 @@ public class LoginAction implements Action{
 	
 	public String execute() {
 		if (getUserId().equals("userId") && getPassword().equals("password")) {
-			return "SUCCESS";
+			return SUCCESS;
 		}
 		else {
-			return "LOGIN";
-		}
-		
+			return LOGIN;
+		}		
 	}
 
 	public String getUserId() {

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="styles.css" />
-<title>Search</title>
+<title>Search Form</title>
 </head>
 <body>
 <!-- <form method="post" action="tutorials/getTutorial.action">

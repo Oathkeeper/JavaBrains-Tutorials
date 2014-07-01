@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE struts PUBLIC 
+  "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+  "http://struts.apache.org/dtds/struts-2.0.dtd">
+  
+  <struts>
+    <package name="login" extends="struts-default" namespace="/">
+      <action name="login" class="ca.owenpeterson.action.LoginAction">
+       <result name="SUCCESS">/searchform.jsp</result>
+       <result name="LOGIN">/login.jsp</result>
+      </action>   
+    </package>
+  
+  </struts>
