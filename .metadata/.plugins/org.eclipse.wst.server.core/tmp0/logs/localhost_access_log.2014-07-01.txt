@@ -94,3 +94,11 @@
 127.0.0.1 - - [01/Jul/2014:11:20:51 -0500] "GET / HTTP/1.1" 404 951
 0:0:0:0:0:0:0:1 - - [01/Jul/2014:11:20:53 -0500] "GET /TutorialFinder/ HTTP/1.1" 200 847
 0:0:0:0:0:0:0:1 - - [01/Jul/2014:11:20:58 -0500] "POST /TutorialFinder/login HTTP/1.1" 200 1111
+127.0.0.1 - - [01/Jul/2014:13:59:58 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Jul/2014:13:59:59 -0500] "GET /TutorialFinder/ HTTP/1.1" 404 981
+0:0:0:0:0:0:0:1 - - [01/Jul/2014:14:00:07 -0500] "GET /TutorialFinder/tutorials/getTutorial HTTP/1.1" 404 1023
+127.0.0.1 - - [01/Jul/2014:14:00:43 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [01/Jul/2014:14:00:44 -0500] "GET /TutorialFinder/ HTTP/1.1" 200 847
+0:0:0:0:0:0:0:1 - - [01/Jul/2014:14:01:04 -0500] "POST /TutorialFinder/login HTTP/1.1" 200 1111
+0:0:0:0:0:0:0:1 - - [01/Jul/2014:14:01:09 -0500] "POST /TutorialFinder/tutorials/getTutorial HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [01/Jul/2014:14:01:09 -0500] "GET /TutorialFinder/success.jsp HTTP/1.1" 200 274

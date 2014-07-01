@@ -2,4 +2,9 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="ca.owenpeterson.service.TutorialFinderService"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.Action"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+<fullyQualifiedTypeName name="ca.owenpeterson.model.User"/>
+<fullyQualifiedTypeName name="ca.owenpeterson.service.LoginService"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ModelDriven"/>
 </qualifiedTypeNameHistroy>
