@@ -7,4 +7,7 @@
 <fullyQualifiedTypeName name="ca.owenpeterson.model.User"/>
 <fullyQualifiedTypeName name="ca.owenpeterson.service.LoginService"/>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ModelDriven"/>
+<fullyQualifiedTypeName name="net.webservicex.GeoIPService"/>
+<fullyQualifiedTypeName name="net.webservicex.GeoIPServiceSoap"/>
+<fullyQualifiedTypeName name="net.webservicex.GeoIP"/>
 </qualifiedTypeNameHistroy>
