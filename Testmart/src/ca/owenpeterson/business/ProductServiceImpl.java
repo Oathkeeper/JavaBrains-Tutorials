@@ -3,6 +3,8 @@ package ca.owenpeterson.business;
 import java.util.ArrayList;
 import java.util.List;
 
+import ca.owenpeterson.model.Product;
+
 public class ProductServiceImpl {
 	
 	List<String> bookList = new ArrayList<>();
@@ -59,6 +61,13 @@ public class ProductServiceImpl {
 			return false;
 		}
 		return true;
+	}
+
+	public List<Product> getProductsv2(String category) {
+		List<Product> productList = new ArrayList<Product>();
+		productList.add(new Product("Java Brains Book", "1234", 9999999.99));
+		productList.add(new Product("Another Book", "ABC", 12.50));
+		return productList;
 	}
 	
 }
