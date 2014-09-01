@@ -10,4 +10,16 @@
 <fullyQualifiedTypeName name="net.webservicex.GeoIPService"/>
 <fullyQualifiedTypeName name="net.webservicex.GeoIPServiceSoap"/>
 <fullyQualifiedTypeName name="net.webservicex.GeoIP"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ca.owenpeterson.business.ProductServiceImpl"/>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="javax.jws.WebMethod"/>
+<fullyQualifiedTypeName name="javax.jws.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="javax.jws.WebParam"/>
+<fullyQualifiedTypeName name="ca.owenpeterson.model.Product"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlRootElement"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
+<fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
+<fullyQualifiedTypeName name="javax.jws.WebResult"/>
 </qualifiedTypeNameHistroy>
