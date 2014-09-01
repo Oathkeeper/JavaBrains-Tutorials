@@ -9,7 +9,7 @@ import javax.jws.WebService;
 import ca.owenpeterson.business.ProductServiceImpl;
 import ca.owenpeterson.model.Product;
 
-@WebService(endpointInterface="ca.owenpeterson.ProductCatalogInterface")
+@WebService(endpointInterface="ca.owenpeterson.ProductCatalogInterface", portName="TestMartCatalogPort", serviceName="TestMartCatalogService")
 public class ProductCatalog implements ProductCatalogInterface {
 	
 	ProductServiceImpl productService = new ProductServiceImpl();
