@@ -22,4 +22,5 @@
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlType"/>
 <fullyQualifiedTypeName name="javax.xml.bind.annotation.XmlElement"/>
 <fullyQualifiedTypeName name="javax.jws.WebResult"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
 </qualifiedTypeNameHistroy>

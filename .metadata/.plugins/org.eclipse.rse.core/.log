@@ -1,4 +1,4 @@
-Mon Sep 01 14:19:48 CDT 2014
+Wed Sep 03 18:25:00 CDT 2014
 ERROR org.eclipse.rse.core  Unexpected Exception
 java.net.UnknownHostException: SUSE-Desktop: SUSE-Desktop: unknown error
 	at java.net.InetAddress.getLocalHost(InetAddress.java:1484)
