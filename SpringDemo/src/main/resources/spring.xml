@@ -1,25 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
-<beans>
-	<bean id="triangle" class="ca.owenpeterson.Triangle">
-	 <property name="pointA" ref="zeroPoint" />
-	 <property name="pointB" ref="point2" />
-	 <property name="pointC" ref="point3" />
- 	</bean>
+<beans default-init-method="myInit" default-destroy-method="myDestroy">
 
-	<bean id="zeroPoint" class="ca.owenpeterson.Point">
+<!-- 	<bean id="parenttriangle" class="ca.owenpeterson.Triangle">
+		<property name="pointA" ref="pointA" />
+
+	</bean> -->
+	
+<!-- 	 <bean id="parenttriangle" class="ca.owenpeterson.Triangle">
+    <property name="points">
+    <list>
+      <ref bean="pointA" />
+    </list>
+    </property>
+  </bean> -->
+  
+	<bean id="triangle" class="ca.owenpeterson.Triangle" autowire="byName"/>
+	
+	<!-- <bean id="triangle" class="ca.owenpeterson.Triangle" name="triangle-name"> 
+		<property name="points"> <list> <ref bean="pointA" /> <ref bean="pointB" 
+		/> <ref bean="pointC" /> </list> </property> </bean> -->
+
+<!-- 	<bean id="triangle1" class="ca.owenpeterson.Triangle" parent="parenttriangle">
+    <property name="points">
+    <list merge="true">
+      <ref bean="pointB" />
+    </list>
+    </property>
+	</bean> -->
+
+<!-- 	<bean id="triangle2" class="ca.owenpeterson.Triangle" parent="parenttriangle">
+		<property name="pointB" ref="pointB" />
+	</bean> -->
+
+
+	<bean id="pointA" class="ca.owenpeterson.Point">
 		<property name="x" value="0" />
 		<property name="y" value="0" />
 	</bean>
 
-	<bean id="point2" class="ca.owenpeterson.Point">
+	<bean id="pointB" class="ca.owenpeterson.Point">
 		<property name="x" value="-20" />
 		<property name="y" value="0" />
 	</bean>
 
-	<bean id="point3" class="ca.owenpeterson.Point">
+	<bean id="pointC" class="ca.owenpeterson.Point">
 		<property name="x" value="0" />
 		<property name="y" value="20" />
 	</bean>
+
+	<alias name="triangle" alias="triangle-alias" />
+	
+	<bean class="ca.owenpeterson.DisplayNameBeanPostProcessor" />
+
 </beans>
