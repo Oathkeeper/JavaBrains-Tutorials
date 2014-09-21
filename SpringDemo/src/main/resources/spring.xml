@@ -66,6 +66,7 @@
   <property name="locations" value="pointsconfig.properties" />
 </bean>
 
+<!-- Replaced by @Component annotation -->
  <bean id="circle" class="ca.owenpeterson.Circle">
  </bean>
 
@@ -74,6 +75,8 @@
   <!-- <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" /> -->
   
   <context:annotation-config />
+  
+  <context:component-scan base-package="ca.owenpeterson" />
 
 
 
