@@ -60,7 +60,12 @@
 </bean>
 
  <bean id="circle" class="ca.owenpeterson.Circle">
-    <property name="center" ref="pointA" />
-  </bean>
+ 
+ </bean>
+
+  <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />
+
+
+
 
 </beans>
