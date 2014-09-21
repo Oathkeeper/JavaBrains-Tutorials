@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
-<beans default-init-method="myInit" default-destroy-method="myDestroy">
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+<!-- <beans default-init-method="myInit" default-destroy-method="myDestroy"> -->
 
 <!-- 	<bean id="parenttriangle" class="ca.owenpeterson.Triangle">
 		<property name="pointA" ref="pointA" />
@@ -16,7 +22,7 @@
     </property>
   </bean> -->
   
-	<bean id="triangle" class="ca.owenpeterson.Triangle" autowire="byName"/>
+<!-- 	<bean id="triangle" class="ca.owenpeterson.Triangle" autowire="byName"/> -->
 	
 	<!-- <bean id="triangle" class="ca.owenpeterson.Triangle" name="triangle-name"> 
 		<property name="points"> <list> <ref bean="pointA" /> <ref bean="pointB" 
@@ -36,6 +42,7 @@
 
 
 	<bean id="pointA" class="ca.owenpeterson.Point">
+	 <qualifier value="circleRelated" />
 		<property name="x" value="${pointA.pointX}" />
 		<property name="y" value="${pointA.pointY}" />
 	</bean>
@@ -60,10 +67,13 @@
 </bean>
 
  <bean id="circle" class="ca.owenpeterson.Circle">
- 
  </bean>
 
-  <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />
+  <!-- <bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" /> -->
+  
+  <!-- <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" /> -->
+  
+  <context:annotation-config />
 
 
 
