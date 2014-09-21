@@ -9,7 +9,7 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
-public class Triangle implements InitializingBean, DisposableBean, ApplicationContextAware, BeanNameAware {
+public class Triangle implements InitializingBean, DisposableBean, ApplicationContextAware, BeanNameAware, Shape {
 
 	private Point pointA;
 	private Point pointB;
@@ -19,7 +19,7 @@ public class Triangle implements InitializingBean, DisposableBean, ApplicationCo
 //	private List<Point> points;
 
 	public void draw() {
-
+		System.out.println("Drawing a triangle");
 		System.out.println("Point A = (" + getPointA().getX() + ", "
 				+ getPointA().getY() + ")");
 		System.out.println("Point B = (" + getPointB().getX() + ", "

@@ -36,8 +36,8 @@
 
 
 	<bean id="pointA" class="ca.owenpeterson.Point">
-		<property name="x" value="0" />
-		<property name="y" value="0" />
+		<property name="x" value="${pointA.pointX}" />
+		<property name="y" value="${pointA.pointY}" />
 	</bean>
 
 	<bean id="pointB" class="ca.owenpeterson.Point">
@@ -52,6 +52,15 @@
 
 	<alias name="triangle" alias="triangle-alias" />
 	
-	<bean class="ca.owenpeterson.DisplayNameBeanPostProcessor" />
+	<!-- <bean class="ca.owenpeterson.DisplayNameBeanPostProcessor" /> -->
+
+
+<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+  <property name="locations" value="pointsconfig.properties" />
+</bean>
+
+ <bean id="circle" class="ca.owenpeterson.Circle">
+    <property name="center" ref="pointA" />
+  </bean>
 
 </beans>
