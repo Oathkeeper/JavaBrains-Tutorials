@@ -74,6 +74,14 @@
   
   <!-- <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" /> -->
   
+  <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource" >
+    <property name="basenames">
+      <list>
+        <value>mymessages</value>
+      </list>
+    </property>
+  </bean>
+  
   <context:annotation-config />
   
   <context:component-scan base-package="ca.owenpeterson" />
