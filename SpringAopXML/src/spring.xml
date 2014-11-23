@@ -20,14 +20,5 @@
 		autowire="byName" />
 
 	<bean name="loggingAspect" class="ca.owenpeterson.aspect.LoggingAspect" />
-	
-	<!-- Aspect configurations -->
-	<aop:config>
-   <aop:aspect id="loggingAspect" ref="loggingAspect">
-    <!-- <aop:pointcut id="allGetters" expression="execution(* get*())" />
-    <aop:around pointcut-ref="allGetters" method="myAroundAdvice" /> -->
-    <aop:around pointcut="execution(* get*())" method="myAroundAdvice" />
-   </aop:aspect>
-	</aop:config>
 
 </beans>
