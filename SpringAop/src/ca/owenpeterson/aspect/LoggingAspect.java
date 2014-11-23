@@ -31,5 +31,9 @@ public class LoggingAspect {
 		System.out.println("After finally");
 		return returnValue;
 	}
+	
+	public void loggingAdvice() {
+		System.out.println("Logging from the advice.");
+	}
 
 }
