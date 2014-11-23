@@ -1,24 +1,32 @@
 package ca.owenpeterson.aspect;
 
+import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+
+import ca.owenpeterson.model.Circle;
 
 @Aspect
 public class LoggingAspect {
 	
 
 	//combines pointcuts.
-	@Before("allGetters() && allCircleMethods()")
-	public void loggingAdvice() {
-		System.out.println("Advice run. Get method called.");
+	@Before("allCircleMethods()")
+	public void loggingAdvice(JoinPoint joinPoint) {
+		Circle circle = (Circle) joinPoint.getTarget();
 	}
 	
-	@Before("allGetters()")
+	@Before("args(name)")
+	public void stringArgumentMethods(String name) {
+		System.out.println("A method that takes String arguments has been called. The value is: " + name);
+	}
+	
+/*	@Before("allGetters()")
 	public void secondAdvice() {
 		System.out.println("Second advice executed.");
 		
-	}
+	}*/
 	
 	/*//combines pointcuts.
 	@Before("allGetters() && allCircleMethods()")*/
