@@ -1,5 +1,6 @@
 package ca.owenpeterson.service;
 
+import ca.owenpeterson.aspect.Loggable;
 import ca.owenpeterson.model.Circle;
 import ca.owenpeterson.model.Triangle;
 
@@ -8,6 +9,7 @@ public class ShapeService {
 	private Circle circle;
 	private Triangle triangle;
 	
+	@Loggable
 	public Circle getCircle() {
 		return circle;
 	}

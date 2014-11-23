@@ -81,4 +81,11 @@ public class LoggingAspect {
 		
 	}
 	
+	@Around("@annotation(ca.owenpeterson.aspect.Loggable)")
+	public void useAnnotationForAspects() {
+		System.out.println("executing the annotation");
+	}
+	
+	
+	
 }
