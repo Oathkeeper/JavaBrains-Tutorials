@@ -19,6 +19,6 @@
 	<bean name="shapeService" class="ca.owenpeterson.service.ShapeService"
 		autowire="byName" />
 
-	<bean name="logginAspect" class="ca.owenpeterson.aspect.LoggingAspect" />
+	<bean name="loggingAspect" class="ca.owenpeterson.aspect.LoggingAspect" />
 
 </beans>
