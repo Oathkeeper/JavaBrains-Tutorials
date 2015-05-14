@@ -1,7 +1,11 @@
 INDEX VERSION 1.127
-/home/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3594445592.index
-/TutorialFinder/src
 /media/owen/8250bfc2-849c-4c67-8c11-f381321a17d1/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3594445592.index
+/TutorialFinder/src
+/home/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3594445592.index
 /TutorialFinder/src
 /home/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3579370251.index
 /Testmart/src
+/home/owen/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3719519577.index
+/Struts2Starter/src
+/home/owen/workspaces/javabrains_tutorials/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3594445592.index
+/TutorialFinder/src
