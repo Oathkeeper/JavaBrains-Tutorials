@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 GitRepositoriesView.GitDirectories=/home/owen/workspaces/javabrains_tutorials/.git\:/home/owen/javabrains_tutorials/.git\:
+=======
+GitRepositoriesView.GitDirectories=/home/owen/javabrains_tutorials/.git\:/home/owen/eclipse_workspaces/javabrains_tutorials/.git\:
+>>>>>>> 12ee7bfc95733a0d77333b496647d82116a865c1
 eclipse.preferences.version=1
