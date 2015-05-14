@@ -1,7 +1,0 @@
-eclipse.preferences.version=1
-org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=/usr/java/jdk1.8.0_05/jre/lib/rt.jar
-org.eclipse.jdt.core.classpathVariable.JRE_SRC=/usr/java/jdk1.8.0_05/src.zip
-org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
-org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
-org.eclipse.jdt.core.userLibrary.Struts2=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/commons-fileupload-1.3.1.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/commons-io-2.2.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/commons-lang3-3.1.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/commons-logging-1.1.3.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/commons-logging-api-1.1.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/freemarker-2.3.19.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/javassist-3.11.0.GA.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/ognl-3.0.6.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/struts2-core-2.3.16.3.jar"/>\n\t<archive path\="/home/owen/bin/struts-2.3.16.3/lib/xwork-core-2.3.16.3.jar" sourceattachment\="/home/owen/bin/struts-2.3.16.3/src"/>\n</userlibrary>\n
