@@ -2,8 +2,7 @@
 ./RemoteSystemsTempFiles
 .metadata/*
 ./Archive
-
-/Servers
+./Servers
 
 # Eclipse
 .classpath
