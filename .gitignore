@@ -1,9 +1,8 @@
-./Servers
+
 ./RemoteSystemsTempFiles
 .metadata/*
-./Archive
-
-/Servers
+Archive/*
+Servers/*
 
 # Eclipse
 .classpath
