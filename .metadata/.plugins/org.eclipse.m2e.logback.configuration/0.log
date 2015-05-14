@@ -1981,3 +1981,106 @@ The type java.lang.CharSequence cannot be resolved. It is indirectly referenced 
 2014-09-03 19:48:17,679 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/SpringDemo/src/main/resources
 2014-09-03 19:48:17,680 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2014-09-03 19:48:17,680 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/javabrains_tutorials/SpringDemo/src/test/resources
+2015-05-14 09:36:26,958 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ca.owenpeterson:HelloWorld:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/Archive/HelloWorld/pom.xml.
+2015-05-14 09:36:27,427 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.pom
+2015-05-14 09:36:27,713 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.pom
+2015-05-14 09:36:27,849 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ant/ant-junit/1.6.5/ant-junit-1.6.5.pom
+2015-05-14 09:36:28,047 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ant/ant-junit/1.6.5/ant-junit-1.6.5.pom
+2015-05-14 09:36:28,170 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.main/2.0.2/org.apache.felix.main-2.0.2.pom
+2015-05-14 09:36:28,374 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.main/2.0.2/org.apache.felix.main-2.0.2.pom
+2015-05-14 09:36:28,490 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/1.2.0/felix-parent-1.2.0.pom
+2015-05-14 09:36:28,658 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/felix-parent/1.2.0/felix-parent-1.2.0.pom
+2015-05-14 09:36:28,769 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/2.0.2/org.apache.felix.framework-2.0.2.pom
+2015-05-14 09:36:28,999 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/2.0.2/org.apache.felix.framework-2.0.2.pom
+2015-05-14 09:36:29,116 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell/1.4.1/org.apache.felix.shell-1.4.1.pom
+2015-05-14 09:36:29,314 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell/1.4.1/org.apache.felix.shell-1.4.1.pom
+2015-05-14 09:36:29,432 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell.tui/1.4.1/org.apache.felix.shell.tui-1.4.1.pom
+2015-05-14 09:36:29,660 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell.tui/1.4.1/org.apache.felix.shell.tui-1.4.1.pom
+2015-05-14 09:36:29,779 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.bundlerepository/1.4.2/org.apache.felix.bundlerepository-1.4.2.pom
+2015-05-14 09:36:29,977 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.bundlerepository/1.4.2/org.apache.felix.bundlerepository-1.4.2.pom
+2015-05-14 09:36:30,096 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.jar
+2015-05-14 09:36:30,472 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/integration/1.7.7/integration-1.7.7.jar
+2015-05-14 09:36:30,553 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/ant/ant-junit/1.6.5/ant-junit-1.6.5.jar
+2015-05-14 09:36:30,953 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/ant/ant-junit/1.6.5/ant-junit-1.6.5.jar
+2015-05-14 09:36:31,079 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.main/2.0.2/org.apache.felix.main-2.0.2.jar
+2015-05-14 09:36:31,801 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.main/2.0.2/org.apache.felix.main-2.0.2.jar
+2015-05-14 09:36:31,918 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/2.0.2/org.apache.felix.framework-2.0.2.jar
+2015-05-14 09:36:32,545 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/2.0.2/org.apache.felix.framework-2.0.2.jar
+2015-05-14 09:36:32,660 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell/1.4.1/org.apache.felix.shell-1.4.1.jar
+2015-05-14 09:36:32,883 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell/1.4.1/org.apache.felix.shell-1.4.1.jar
+2015-05-14 09:36:32,995 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell.tui/1.4.1/org.apache.felix.shell.tui-1.4.1.jar
+2015-05-14 09:36:33,248 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell.tui/1.4.1/org.apache.felix.shell.tui-1.4.1.jar
+2015-05-14 09:36:33,330 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.bundlerepository/1.4.2/org.apache.felix.bundlerepository-1.4.2.jar
+2015-05-14 09:36:33,640 [Worker-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.bundlerepository/1.4.2/org.apache.felix.bundlerepository-1.4.2.jar
+2015-05-14 09:36:35,111 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:36:35,112 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/Archive/HelloWorld/src/main/resources
+2015-05-14 09:36:35,115 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:36:35,115 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/Archive/HelloWorld/src/test/resources
+2015-05-14 09:36:35,422 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:36:35,423 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/Archive/HelloWorld/src/main/resources
+2015-05-14 09:36:35,425 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:36:35,426 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/Archive/HelloWorld/src/test/resources
+2015-05-14 09:37:42,709 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringDemo:SpringDemo:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/SpringDemo/pom.xml.
+2015-05-14 09:37:42,709 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringDemo:SpringDemo:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/SpringDemo/pom.xml.
+2015-05-14 09:37:42,805 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE.pom
+2015-05-14 09:37:42,971 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE.pom
+2015-05-14 09:37:43,133 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE.pom
+2015-05-14 09:37:43,329 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE.pom
+2015-05-14 09:37:43,414 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE.pom
+2015-05-14 09:37:43,593 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE.pom
+2015-05-14 09:37:43,699 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.6.RELEASE/spring-aop-4.0.6.RELEASE.pom
+2015-05-14 09:37:44,302 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.6.RELEASE/spring-aop-4.0.6.RELEASE.pom
+2015-05-14 09:37:44,415 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.6.RELEASE/spring-expression-4.0.6.RELEASE.pom
+2015-05-14 09:37:44,590 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.6.RELEASE/spring-expression-4.0.6.RELEASE.pom
+2015-05-14 09:37:44,678 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE.jar
+2015-05-14 09:37:45,372 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-core/4.0.6.RELEASE/spring-core-4.0.6.RELEASE.jar
+2015-05-14 09:37:45,744 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE.jar
+2015-05-14 09:37:46,021 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.0.6.RELEASE/spring-beans-4.0.6.RELEASE.jar
+2015-05-14 09:37:46,104 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE.jar
+2015-05-14 09:37:47,039 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-context/4.0.6.RELEASE/spring-context-4.0.6.RELEASE.jar
+2015-05-14 09:37:47,122 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.6.RELEASE/spring-aop-4.0.6.RELEASE.jar
+2015-05-14 09:37:47,586 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.0.6.RELEASE/spring-aop-4.0.6.RELEASE.jar
+2015-05-14 09:37:47,668 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.6.RELEASE/spring-expression-4.0.6.RELEASE.jar
+2015-05-14 09:37:48,012 [Worker-7] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.0.6.RELEASE/spring-expression-4.0.6.RELEASE.jar
+2015-05-14 09:37:50,987 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:50,993 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-05-14 09:37:51,030 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:51,030 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/SpringDemo/src/test/resources
+2015-05-14 09:37:51,159 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringDemo:SpringDemo:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/SpringDemo/pom.xml.
+2015-05-14 09:37:51,246 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: TutorialFinder:TutorialFinder:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/pom.xml.
+2015-05-14 09:37:51,447 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:51,461 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-05-14 09:37:51,465 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:51,465 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/SpringDemo/src/test/resources
+2015-05-14 09:37:51,556 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: TutorialFinder:TutorialFinder:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/pom.xml.
+2015-05-14 09:37:52,858 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:52,860 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-05-14 09:37:52,861 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:52,862 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/src/test/resources
+2015-05-14 09:37:53,957 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringDemo:SpringDemo:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/SpringDemo/pom.xml.
+2015-05-14 09:37:53,999 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: TutorialFinder:TutorialFinder:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/pom.xml.
+2015-05-14 09:37:54,354 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:54,355 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-14 09:37:54,356 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:54,356 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/SpringDemo/src/test/resources
+2015-05-14 09:37:54,409 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:54,409 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-05-14 09:37:54,411 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:37:54,411 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/src/test/resources
+2015-05-14 09:39:16,224 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-05-14 09:39:16,254 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: TutorialFinder:TutorialFinder:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/pom.xml.
+2015-05-14 09:39:16,369 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TutorialFinder/src
+2015-05-14 09:39:16,369 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /TutorialFinder/src overlaps with sources folder /TutorialFinder/src
+2015-05-14 09:39:16,370 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /TutorialFinder/src/test/java because it overlaps with /TutorialFinder/src
+2015-05-14 09:39:16,791 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: TutorialFinder:TutorialFinder:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/pom.xml.
+2015-05-14 09:39:16,876 [Worker-8] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for TutorialFinder
+2015-05-14 09:39:16,879 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-05-14 09:39:17,115 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:39:17,115 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-05-14 09:39:17,119 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:39:17,119 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/src/test/resources
+2015-05-14 09:40:33,658 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: TutorialFinder:TutorialFinder:0.0.1-SNAPSHOT @ /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/pom.xml.
+2015-05-14 09:40:33,758 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:40:33,759 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2015-05-14 09:40:33,760 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-05-14 09:40:33,761 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/owen/eclipse_workspaces/javabrains_tutorials/TutorialFinder/src/test/resources
